@@ -15,4 +15,8 @@ class AppTest {
         App classUnderTest = new App();
         assertEquals(7, classUnderTest.sumar(3, 2));
     }
+    @Test void appRestarCorrecta() {
+        App classUnderTest = new App();
+        assertEquals(1, classUnderTest.sumar(3, 2));
+    }
 }
